@@ -1,0 +1,26 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: data-operation
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/iot-ydh?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+    password: aaaaaa
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.159.11:8848
+        username: nacos
+        password: nacos
+        namespace: public
+
+mybatis-plus:
+#  global-config:
+#    db-config:
+#      table-prefix: iot_
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+

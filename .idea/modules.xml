@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/iot-auth/iot-auth.iml" filepath="$PROJECT_DIR$/iot-auth/iot-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iot-base/iot-base.iml" filepath="$PROJECT_DIR$/iot-base/iot-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iot-device-op/iot-device-op.iml" filepath="$PROJECT_DIR$/iot-device-op/iot-device-op.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iot-gateway/iot-gateway.iml" filepath="$PROJECT_DIR$/iot-gateway/iot-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iot-gateway-device/iot-gateway-device.iml" filepath="$PROJECT_DIR$/iot-gateway-device/iot-gateway-device.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iot-message/iot-message.iml" filepath="$PROJECT_DIR$/iot-message/iot-message.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iot-now-start.iml" filepath="$PROJECT_DIR$/iot-now-start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iot-protocol/iot-protocol.iml" filepath="$PROJECT_DIR$/iot-protocol/iot-protocol.iml" />
+    </modules>
+  </component>
+</project>

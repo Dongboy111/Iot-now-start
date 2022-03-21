@@ -1,0 +1,29 @@
+
+
+spring:
+  application:
+    name: api-gateway-equipment
+  #    redis配置
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.159.11:8848
+        username: nacos
+        password: nacos
+    gateway:
+      #gateway 路由
+      routes:
+
+        - id: user_query_route #路由 唯一标识
+          uri: lb://device-operation #使用nacos 的写法
+          predicates:       #断言
+            - Path=/device-serv/** #会由PAth和一些固定字符组成类名
+          filters:
+            - StripPrefix=1 #提示省略第一层请求  就是data-serv
+
+    sentinel:
+      transport:
+        dashboard: 192.168.159.11:8080
+server:
+  port: 8889
+

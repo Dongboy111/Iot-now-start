@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="55f1d798-b6a4-49d7-9e01-4756086c7dac" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
+  <component name="ProjectId" id="26SvpdIruCzDR1r4QepAzwQaYVY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../nacos-1.4.3" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\spring-boot-project\new\iot-now-start\iot-protocol\src\main\java\com\ydh\iotprotocol\producer" />
+      <recent name="E:\spring-boot-project\new\iot-now-start\iot-gateway" />
+      <recent name="E:\spring-boot-project\new\iot-now-start\iot-auth" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.ydh.iotbase.dao" />
+      <recent name="com.ydh.iotbase.service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ydh.iotdeviceop.common" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.IotGatewayApplication">
+    <configuration name="UserserviceTest.dong" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="iot-base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ydh.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ydh.service" />
+      <option name="MAIN_CLASS_NAME" value="com.ydh.service.UserserviceTest" />
+      <option name="METHOD_NAME" value="dong" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="iot-auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ydh.iotauto.AuthServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IotBaseOpApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="iot-base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ydh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ydh.IotBaseOpApplication" />
+      <option name="VM_PARAMETERS" value="-javaagent:F:\mustEnv\apache-skywalking-apm-bin-es7\agent\skywalking-agent.jar -DSW_AGENT_NAME=data-op -DSW_AGENT_COLLECTOR_BACKEND_SERVICE=127.0.0.1:11800" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IotDeviceOpApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="iot-device-op" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ydh.iotdeviceop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ydh.iotdeviceop.IotDeviceOpApplication" />
+      <option name="VM_PARAMETERS" value="-javaagent:F:\mustEnv\apache-skywalking-apm-bin-es7\agent\skywalking-agent.jar -DSW_AGENT_NAME=device-op -DSW_AGENT_COLLECTOR_BACKEND_SERVICE=127.0.0.1:11800" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IotGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="iot-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ydh.iotgateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ydh.iotgateway.IotGatewayApplication" />
+      <option name="VM_PARAMETERS" value="-javaagent:F:\mustEnv\apache-skywalking-apm-bin-es7\agent\skywalking-agent.jar -DSW_AGENT_NAME=api-gateway -DSW_AGENT_COLLECTOR_BACKEND_SERVICE=127.0.0.1:11800" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IotGatewayDeviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="iot-gateway-device" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ydh.iotgatewayequipment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ydh.iotgatewayequipment.IotGatewayDeviceApplication" />
+      <option name="VM_PARAMETERS" value="-javaagent:F:\mustEnv\apache-skywalking-apm-bin-es7\agent\skywalking-agent.jar -DSW_AGENT_NAME=api-gateway-equip -DSW_AGENT_COLLECTOR_BACKEND_SERVICE=127.0.0.1:11800" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IotProtocolApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="iot-protocol" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ydh.iotprotocol.IotProtocolApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.UserserviceTest.dong" />
+      <item itemvalue="Spring Boot.AuthServiceApplication" />
+      <item itemvalue="Spring Boot.IotProtocolApplication" />
+      <item itemvalue="Spring Boot.IotGatewayApplication" />
+      <item itemvalue="Spring Boot.IotGatewayDeviceApplication" />
+      <item itemvalue="Spring Boot.IotDeviceOpApplication" />
+      <item itemvalue="Spring Boot.IotBaseOpApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.IotGatewayApplication" />
+        <item itemvalue="Spring Boot.IotBaseOpApplication" />
+        <item itemvalue="Spring Boot.IotGatewayDeviceApplication" />
+        <item itemvalue="Spring Boot.IotDeviceOpApplication" />
+        <item itemvalue="JUnit.UserserviceTest.dong" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="55f1d798-b6a4-49d7-9e01-4756086c7dac" name="Default Changelist" comment="" />
+      <created>1647429988084</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647429988084</updated>
+      <workItem from="1647429989170" duration="6705000" />
+      <workItem from="1647476375262" duration="6031000" />
+      <workItem from="1647492631209" duration="2141000" />
+      <workItem from="1647494802793" duration="19758000" />
+      <workItem from="1647653074255" duration="18148000" />
+      <workItem from="1647833091806" duration="1015000" />
+      <workItem from="1647839576031" duration="4000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

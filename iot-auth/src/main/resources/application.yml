@@ -1,0 +1,38 @@
+
+spring:
+  application:
+    name: iot-auth
+  redis:
+    database: 0
+    timeout: 3000
+    lettuce:
+      pool:
+        max-active: 100
+        max-wait: -1
+        min-idle: 0
+        max-idle: 8
+    host: localhost
+    port: 6379
+
+  cloud:
+#    gateway:
+#      routes:
+#        - id:  #路由唯一标识 随便起
+#          uri: lb:// #nacos服务名
+#          predicates:
+#            - Path=/order-server/**
+#          filters:
+#            - StripPrefix=1 #去掉路由的第一层
+    #nacos 配置
+    nacos:
+      discovery:
+        username: nacos
+        password: nacos
+        namespace: public
+        server-addr: 192.168.159.11:8848
+
+
+
+# 应用服务 WEB 访问端口
+server:
+  port: 8080
