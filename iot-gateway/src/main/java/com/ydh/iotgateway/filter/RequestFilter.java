@@ -8,6 +8,9 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.server.ServerWebExchange;
 import reactor.core.publisher.Mono;
 
+/*
+ 全局过滤器，jwt
+ */
 
 @Slf4j
 //@Component

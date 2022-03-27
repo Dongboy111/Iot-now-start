@@ -5,6 +5,8 @@
     <file url="file://$PROJECT_DIR$/iot-auth/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/iot-base/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/iot-base/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/iot-device-listener/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/iot-device-listener/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/iot-device-op/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/iot-device-op/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/iot-gateway-device/src/main/java" charset="UTF-8" />
