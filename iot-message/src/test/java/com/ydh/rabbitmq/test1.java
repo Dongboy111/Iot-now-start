@@ -27,7 +27,7 @@ public class test1 {
 
         BaseData baseData = new BaseData() ;
         baseData.setData("dddd");
-        baseData.setDataID("kagshgire");
+//        baseData.setDataID("kagshgire");
         baseData.setUserID("hdsghakeg");
         baseData.setTimeStamp("15569375932");
         String json = JSON.toJSONString(baseData) ;

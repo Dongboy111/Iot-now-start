@@ -29,8 +29,6 @@ public class DeviceRegistered {
     @PostMapping("/all")
     public boolean insertInfoToTable(@RequestBody  DeviceDataEntity deviceDataEntity){
         return iDeviceDataService.save(deviceDataEntity) ;
-//        return true ;
-
 
     }
 }
