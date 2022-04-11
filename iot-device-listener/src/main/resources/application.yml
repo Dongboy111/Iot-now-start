@@ -14,4 +14,4 @@ spring:
     host: 192.168.159.11
     port: 5672
 server:
-  port: 9002
+  port: 9004

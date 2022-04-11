@@ -7,18 +7,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="iot-gateway" />
         <module name="iot-device-op" />
-        <module name="iot-protocol" />
         <module name="iot-base" />
+        <module name="iot-auth-gateway" />
         <module name="iot-device-listener" />
         <module name="iot-gateway-device" />
-        <module name="iot-auth" />
         <module name="iot-message" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="iot-all-gateway" target="1.8" />
       <module name="iot-auth" target="1.8" />
+      <module name="iot-auth-gateway" target="1.8" />
       <module name="iot-base" target="1.8" />
       <module name="iot-common" target="1.8" />
       <module name="iot-device-listener" target="1.8" />

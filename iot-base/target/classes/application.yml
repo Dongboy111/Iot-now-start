@@ -16,11 +16,31 @@ spring:
         username: nacos
         password: nacos
         namespace: public
+#  邮件配置
 
-mybatis-plus:
+  mail:
+    host: smtp.163.com
+#    password: Shaoyadong1
+    password: GEZCSZHQYAZYZURB
+    username: ydh_iot_now_start@163.com
+    #port: 端口号
+    default-encoding: UTF-8
+    properties:
+      mail.smtp.socketFactory.fallback: true
+      mail.smtp.starttls.enable: true
+  thymeleaf:
+    mode: HTML5
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+    prefix: classpath:/email/
+    suffix: .html
+    cache: false
+#mybatis-plus:
 #  global-config:
 #    db-config:
 #      table-prefix: iot_
-  configuration:
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#日志开启
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 

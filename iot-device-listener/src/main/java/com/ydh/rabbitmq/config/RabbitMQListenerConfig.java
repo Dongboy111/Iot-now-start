@@ -38,7 +38,7 @@ public class RabbitMQListenerConfig {
 
 //                System.out.println(deviceDataEntity);
                 iDeviceOp.insertInfoToTable(deviceDataEntity) ;
-                System.out.println("插入成功");
+//                System.out.println("插入成功");
         }
 
 }
